@@ -70,9 +70,66 @@
       </section>
 
       <!-- END OF MOORE ABOUT ME section-->
+      <div class="underline"></div>
 
-      <h4 id="scrollspyHeading3">Third headig</h4>
-      <p>...</p>
+      <!-- PROJECT section-->
+
+      <section
+        id="scrollspyHeading3"
+        :style="{
+          'background-image': 'url(https://wallpapercave.com/wp/uhvYTtV.jpg)',
+        }"
+      >
+        <div class="container-fluid project-section">
+          <div class="container project">
+            <h1 class="project-caption">here are some of my recent Projects</h1>
+            <div class="row cards">
+              <div class="card" style="width: 24rem">
+                <img src="#" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="btn-lg btn btn-outline-warning"
+                    >Take a Look</a
+                  >
+                </div>
+              </div>
+              <div class="card" style="width: 24rem">
+                <img src="#" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="btn-lg btn btn-outline-warning"
+                    >Take a Look</a
+                  >
+                </div>
+              </div>
+              <div class="card" style="width: 24rem">
+                <img src="#" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="btn-lg btn btn-outline-warning"
+                    >Take a Look</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- END OF PROJECT section-->
+
       <h4 id="scrollspyHeading4">Fourth heading</h4>
       <p>...</p>
       <h4 id="scrollspyHeading5">Fifth heading</h4>
@@ -169,6 +226,40 @@ export default {
   background-color: orange;
 }
 
+/* ---- PROJECT SECTIONS -----*/
+
+.project-section {
+  height: auto;
+}
+.project {
+  padding: 80px 10px;
+  height: auto;
+}
+.project-caption {
+  padding: 30px 0;
+  width: auto;
+  text-align: center;
+  text-transform: uppercase;
+  color: #efefef;
+  font-size: 2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.cards {
+  justify-content: space-around;
+  padding: 60px 0;
+}
+.card {
+  border-radius: 5px;
+  border: 4px orange solid;
+  color: #efefef;
+  background-color: rgb(19, 19, 19);
+}
+.card-img-top {
+  height: 250px;
+}
+
+/* MEDIA QUERIES*/
+
 @media only screen and (max-width: 900px) {
   #navbar-example2 {
     height: 100px;
@@ -198,6 +289,9 @@ export default {
   }
   .About p {
     font-size: 15px;
+  }
+  .cards {
+    gap: 30px;
   }
 }
 </style>
