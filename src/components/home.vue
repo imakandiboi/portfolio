@@ -1,15 +1,15 @@
 <template>
   <div>
-    <nav id="navbar-example2" class="navbar navbar-light sticky-top px-4">
+    <nav id="navbar-example2" class="navbar navbar-light sticky-top px-1">
       <a class="navbar-brand" href="#">C-A</a>
       <ul class="nav nav-pills mt-8">
-        <li class="nav-item mr-8">
+        <li class="nav-item">
           <a class="nav-link" href="#scrollspyHeading1">HOME</a>
         </li>
-        <li class="nav-item mr-8">
+        <li class="nav-item">
           <a class="nav-link" href="#scrollspyHeading2">ABOUT</a>
         </li>
-        <li class="nav-item mr-8">
+        <li class="nav-item">
           <a class="nav-link" href="#scrollspyHeading2">RESUME</a>
         </li>
       </ul>
@@ -170,6 +170,10 @@ export default {
 }
 
 @media only screen and (max-width: 900px) {
+  #navbar-example2 {
+    height: 100px;
+    padding-right: 20px;
+  }
   .hero h1 {
     text-align: left;
     margin: 30px 10px;
