@@ -53,17 +53,18 @@
       <section id="scrollspyHeading2">
         <div class="container-fluid About">
           <header class="px-24 pt-12">
-            <h2>Hi , Lets Meet.</h2>
+            <h2>Hi, Let's Meet.</h2>
             <p>
-              Hi , my is
+              Hi, my is
               <span style="color: orange"
                 >Arinzechi Chiagozie Chukwunyelu.</span
               >
-              I am a javascript developer Since the beginning of my career as a
-              developer for a year, i have developed some websites for
-              businesses and i have also collaborated with some creative
-              developers on digital products, i am bold , confident & naturally
-              curious and a huge football fan.
+              I am a
+              <span style="color: orange">JavaScript developer</span> Since the
+              beginning of my career as a developer for a year, i have developed
+              websites for start-up businesses and i have also collaborated with
+              some creative developers on websites, i am bold , confident &
+              naturally curious and a huge football fan.
             </p>
           </header>
         </div>
