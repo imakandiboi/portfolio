@@ -130,9 +130,26 @@
       </section>
 
       <!-- END OF PROJECT section-->
+      <div class="underline"></div>
 
-      <h4 id="scrollspyHeading4">Fourth heading</h4>
-      <p>...</p>
+      <!-- TECH STACKS  section-->
+      <section id="scrollspyHeading4">
+        <div class="container-fluid tech-stack-section">
+          <div class="tech-stack container">
+            <h3>here are tech-stacks i used in prodution</h3>
+            <div class="stack">
+              <div class="d-flex flex-wrap">
+                <div class="w">1</div>
+                <div class="w">2</div>
+                <div class="w">3</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- END OF TECH STACKS  section-->
+
       <h4 id="scrollspyHeading5">Fifth heading</h4>
       <p>...</p>
     </div>
@@ -251,13 +268,41 @@ export default {
 }
 .card {
   border-radius: 5px;
-  border: 4px orange solid;
+  border: 1px orange solid;
   color: #efefef;
   background-color: rgb(19, 19, 19);
+  margin-bottom: 50px;
 }
 .card-img-top {
   height: 250px;
 }
+
+/*TECH-STACK SECTIONS  */
+
+.tech-stack-section {
+  color: #efefef;
+  height: 60vh;
+  background-color: rgb(22, 22, 22);
+}
+.tech-stack {
+  padding: 10px;
+}
+.tech-stack h3 {
+  margin: 30px 0;
+  font-size: 1.7rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+.stack {
+  padding: 20px 0;
+}
+/**THIS IS THE TECH STACK W-CLASS FOR WIDTH AT MEDIA QUERIES (DESKTOP SCREEN ) */
+.w {
+  width: 33.3%;
+  padding: 10px;
+}
+/**THIS IS THE TECH STACK W-CLASS FOR WIDTH AT MEDIA QUERIES (DESKTOP SCREEN ) */
 
 /* MEDIA QUERIES*/
 
@@ -294,5 +339,14 @@ export default {
   .cards {
     gap: 30px;
   }
+  .tech-stack-section {
+    height: auto;
+  }
+  /**THIS IS THE TECH STACK W-CLASS FOR WIDTH AT MEDIA QUERIES (SMALL SCREEN ) */
+  .w {
+    width: 100%;
+    padding: 5px;
+  }
+  /**THIS IS THE TECH STACK W-CLASS FOR WIDTH AT MEDIA QUERIES (SMALL SCREEN ) */
 }
 </style>
