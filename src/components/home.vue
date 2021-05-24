@@ -139,9 +139,104 @@
             <h3>here are tech-stacks i used in prodution</h3>
             <div class="stack">
               <div class="d-flex flex-wrap">
-                <div class="w">1</div>
-                <div class="w">2</div>
-                <div class="w">3</div>
+                <div class="w">
+                  <div class="mx-auto">
+                    <svg
+                      width="48"
+                      height="48"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="mx-auto"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M41.42 8.084c.78-.78.78-2.04 0-2.82L36.74.584a1.992 1.992 0 00-2.82 0L30 4.505l7.5 7.5 3.92-3.92zM8 26.502L28 6.504l7.5 7.5-20 19.998H8v-7.5zm4 3.5h1.84l16-15.998-1.84-1.84-16 15.998v1.84zM48 40H0V48h48v-8z"
+                        fill="#1CB1BB"
+                        data-v-6b15a60d=""
+                      ></path>
+                    </svg>
+                  </div>
+                  <h4 class="pt-4">DESIGNS</h4>
+                  <p class="mt-4">
+                    I love clean, simple and high performance designs, with
+                    smooth interactions.
+                  </p>
+                  <h6 class="pt-4 pb-2">DESIGNS TOOLS :</h6>
+                  <p>Figma</p>
+                  <p>Canva</p>
+                  <p>Adobe Photoshop</p>
+                  <p>Scribble</p>
+                </div>
+                <div class="w w-b">
+                  <div class="mx-auto">
+                    <svg
+                      width="48"
+                      height="48"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="mx-auto"
+                      data-v-6b15a60d=""
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M6 12h36V8H6c-2.2 0-4 1.8-4 4v24c0 2.2 1.8 4 4 4h8v-4H6V12zm20 12h-8v3.56c-1.22 1.1-2 2.66-2 4.44 0 1.78.78 3.34 2 4.44V40h8v-3.56c1.22-1.1 2-2.68 2-4.44 0-1.76-.78-3.34-2-4.44V24zm-7 8c0 1.66 1.34 3 3 3s3-1.34 3-3-1.34-3-3-3-3 1.34-3 3zm25-16H32c-1 0-2 1-2 2v20c0 1 1 2 2 2h12c1 0 2-1 2-2V18c0-1-1-2-2-2zM34 36h8V20h-8v16z"
+                        fill="#1CB1BB"
+                        data-v-6b15a60d=""
+                      ></path>
+                    </svg>
+                    <h4 class="pt-4">FRONT-END DEVELOPMENT</h4>
+
+                    <p class="mt-4">
+                      I also build Quality UI, i'm comfortable with templates,
+                      themes and whatever is to job my job up to speed.
+                    </p>
+                    <h6 class="pt-4 pb-2">TECHS-SETS :</h6>
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>JavaScript</p>
+
+                    <h6 class="pt-4 pb-2">FRAMEWORKS USED :</h6>
+
+                    <p>VUE.JS</p>
+                    <p>JQUERY</p>
+                    <p>BOOTSTAP</p>
+                    <p>TAILWIND CSS</p>
+                    <p>FOUNDATION</p>
+                  </div>
+                </div>
+                <div class="w">
+                  <div class="mx-auto">
+                    <svg
+                      width="48"
+                      height="48"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="mx-auto"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M41.42 8.084c.78-.78.78-2.04 0-2.82L36.74.584a1.992 1.992 0 00-2.82 0L30 4.505l7.5 7.5 3.92-3.92zM8 26.502L28 6.504l7.5 7.5-20 19.998H8v-7.5zm4 3.5h1.84l16-15.998-1.84-1.84-16 15.998v1.84zM48 40H0V48h48v-8z"
+                        fill="#1CB1BB"
+                        data-v-6b15a60d=""
+                      ></path>
+                    </svg>
+                  </div>
+                  <h4 class="pt-4">DEPLOYMENT</h4>
+                  <p class="mt-4">
+                    I am flexible with different platforms used in Deploying my
+                    codes.
+                  </p>
+                  <h6 class="pt-4 pb-2">Deployment tools :</h6>
+                  <p>Netlify</p>
+                  <p>Infinityfree</p>
+                  <p>Digital ocean</p>
+
+                  <h6 class="pt-4 pb-2">DEVELOPMENT TOOL :</h6>
+                  <p>vscode</p>
+                </div>
               </div>
             </div>
           </div>
@@ -281,7 +376,7 @@ export default {
 
 .tech-stack-section {
   color: #efefef;
-  height: 60vh;
+  height: 80vh;
   background-color: rgb(22, 22, 22);
 }
 .tech-stack {
@@ -296,11 +391,22 @@ export default {
 }
 .stack {
   padding: 20px 0;
+  text-align: center;
 }
 /**THIS IS THE TECH STACK W-CLASS FOR WIDTH AT MEDIA QUERIES (DESKTOP SCREEN ) */
 .w {
   width: 33.3%;
   padding: 10px;
+}
+.w-b {
+  border-left: 2px solid orange;
+  border-right: 2px solid orange;
+}
+.w h4 {
+  color: orange;
+}
+.w h6 {
+  color: orange;
 }
 /**THIS IS THE TECH STACK W-CLASS FOR WIDTH AT MEDIA QUERIES (DESKTOP SCREEN ) */
 
