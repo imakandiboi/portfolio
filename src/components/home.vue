@@ -10,13 +10,13 @@
           <a class="nav-link" href="#scrollspyHeading2">ABOUT</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#scrollspyHeading2">RESUME</a>
+          <a class="nav-link" href="#scrollspyHeading3">PROJECTS</a>
         </li>
       </ul>
     </nav>
     <div
       data-bs-spy="scroll"
-      data-bs-target="#navbar-example2"
+      data-bs-target="#navbar-example2  "
       data-bs-offset="0"
       class="scrollspy-example"
       tabindex="0"
@@ -29,7 +29,7 @@
           'background-image': 'url(https://wallpapercave.com/wp/uhvYTtV.jpg)',
         }"
       >
-        <div class="container">
+        <div class="container hero-box">
           <div class="row hero p-8">
             <div class="col-sm-8 details">
               <h1>
@@ -37,7 +37,11 @@
               </h1>
               <h3>web developer, Aspiring Software developer</h3>
 
-              <button type="button" class="btn btn-lg btn btn-outline-warning">
+              <button
+                type="button"
+                class="btn btn-lg btn btn-outline-warning"
+                style="border-radius: 50px"
+              >
                 Contact me
               </button>
             </div>
@@ -64,7 +68,8 @@
               beginning of my career as a developer for a year, i have developed
               websites for start-up businesses and i have also collaborated with
               some creative developers on websites, i am bold , confident &
-              naturally curious and a huge football fan.
+              naturally curious, a huge football fan and also very intersted in
+              the stock market.
             </p>
           </header>
         </div>
@@ -93,7 +98,10 @@
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
                   </p>
-                  <a href="#" class="btn-lg btn btn-outline-warning"
+                  <a
+                    href="#"
+                    class="btn-lg btn btn-outline-warning"
+                    style="border-radius: 50px"
                     >Take a Look</a
                   >
                 </div>
@@ -106,7 +114,10 @@
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
                   </p>
-                  <a href="#" class="btn-lg btn btn-outline-warning"
+                  <a
+                    href="#"
+                    class="btn-lg btn btn-outline-warning"
+                    style="border-radius: 50px"
                     >Take a Look</a
                   >
                 </div>
@@ -119,7 +130,10 @@
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
                   </p>
-                  <a href="#" class="btn-lg btn btn-outline-warning"
+                  <a
+                    href="#"
+                    class="btn-lg btn btn-outline-warning"
+                    style="border-radius: 50px"
                     >Take a Look</a
                   >
                 </div>
@@ -136,7 +150,7 @@
       <section id="scrollspyHeading4">
         <div class="container-fluid tech-stack-section">
           <div class="tech-stack container">
-            <h3>here are tech-stacks i used in prodution</h3>
+            <h3>here are technology stacks i used in prodution</h3>
             <div class="stack">
               <div class="d-flex flex-wrap">
                 <div class="w">
@@ -190,9 +204,9 @@
 
                     <p class="mt-4">
                       I also build Quality UI, i'm comfortable with templates,
-                      themes and whatever is to job my job up to speed.
+                      themes and whatever it is to get my job upto speed.
                     </p>
-                    <h6 class="pt-4 pb-2">TECHS-SETS :</h6>
+                    <h6 class="pt-4 pb-2">TECHNOLOGY STACK :</h6>
                     <p>HTML</p>
                     <p>CSS</p>
                     <p>JavaScript</p>
@@ -245,8 +259,54 @@
 
       <!-- END OF TECH STACKS  section-->
 
-      <h4 id="scrollspyHeading5">Fifth heading</h4>
-      <p>...</p>
+      <!-- CONTACT ME  section-->
+      <section id="scrollspyHeading5">
+        <div class="container-fluid contact-me-section">
+          <div class="container contact-me p-8">
+            <h3>let's work togeher on something Great</h3>
+            <div class="underline-2 mx-auto"></div>
+            <p class="">
+              Think of a Project or Product idea ! , you can get in touch with
+              my contact information and social link.
+            </p>
+
+            <div class="social-links container">
+              <div class="row text-center socials">
+                <div class="col-md-3">
+                  <div class="flex-col">
+                    <div class="icon"><i class="fas fa-mobile-alt"></i></div>
+                    <div>5</div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="flex-col">
+                    <div class="icon"><i class="fas fa-envelope"></i></div>
+                    <div>6</div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="flex-col">
+                    <div class="icon"><i class="fab fa-linkedin"></i></div>
+                    <div>7</div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="flex-col">
+                    <div class="icon"><i class="fab fa-github"></i></div>
+                    <div>8</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid copyright text-center">
+          <p class="copyright-text">
+            © {{ new Date().getFullYear() }} Arinzechi Chiagozie
+          </p>
+        </div>
+      </section>
+      <!-- END OF CONTACT ME  section-->
     </div>
   </div>
 </template>
@@ -258,6 +318,8 @@ export default {
 </script>
 
 <style scoped>
+@import url("https://fonts.googleapis.com/css2?family=Nunito&family=Odibee+Sans&family=Open+Sans&family=Roboto+Condensed&family=Roboto+Slab:wght@100;200;400;500;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito&family=Odibee+Sans&family=Open+Sans&family=Roboto+Condensed&family=Roboto+Slab&display=swap");
 .navbar {
   background-color: black;
   font-weight: bold;
@@ -269,6 +331,7 @@ export default {
 }
 #navbar-example2 a {
   color: rgb(255, 255, 255);
+  font-size: 12px;
 }
 .nav-item {
   margin: 0 15px;
@@ -277,8 +340,10 @@ export default {
 .lander {
   height: 60vh;
 }
+.hero-box {
+}
 .hero {
-  height: 40vh;
+  height: auto;
 }
 
 .hero details {
@@ -289,6 +354,8 @@ export default {
 .hero h1 {
   text-align: left;
   margin: 30px 10px;
+  font-family: "Odibee Sans", cursive;
+  font-weight: Thin 100;
   color: #f5f3f3;
   text-transform: uppercase;
   font-size: 3rem;
@@ -331,12 +398,19 @@ export default {
 
 .About p {
   font-size: 1.2rem;
+  font-family: "Roboto Slab", serif;
+
   line-height: 3rem;
 }
 .underline {
   width: 100%;
   height: 3px;
   background-color: orange;
+}
+.underline-2 {
+  width: 70%;
+  height: 10px;
+  background-color: black;
 }
 
 /* ---- PROJECT SECTIONS -----*/
@@ -410,6 +484,51 @@ export default {
 }
 /**THIS IS THE TECH STACK W-CLASS FOR WIDTH AT MEDIA QUERIES (DESKTOP SCREEN ) */
 
+/**THIS IS THE CONTACT-ME SECTION (DESKTOP SCREEN ) */
+
+.contact-me-section {
+  height: 40vh;
+  background-color: rgb(209, 137, 3);
+}
+.contact-me h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-family: "Odibee Sans", cursive;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+}
+
+.contact-me p {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-family: "Roboto Slab", serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+.copyright {
+  height: 10vh;
+  color: #999999ee;
+  background-color: rgb(0, 0, 0);
+}
+.copyright-text {
+  padding-top: 40px;
+  font-size: 20px;
+  letter-spacing: 0.1rem;
+  font-family: "Odibee Sans", cursive;
+}
+
+.socials {
+  padding: 40px 10px;
+}
+.icon {
+  font-size: 50px;
+}
 /* MEDIA QUERIES*/
 
 @media only screen and (max-width: 900px) {
@@ -424,7 +543,7 @@ export default {
     text-transform: uppercase;
     font-size: 2rem;
     line-height: 4rem;
-    font-family: sans-serif;
+    font-family: "Odibee Sans", cursive;
   }
   .About {
     background-color: rgb(22, 22, 22);
@@ -454,5 +573,22 @@ export default {
     padding: 5px;
   }
   /**THIS IS THE TECH STACK W-CLASS FOR WIDTH AT MEDIA QUERIES (SMALL SCREEN ) */
+
+  /**CONTACT ME SECTION FOR MEDIA QUREIES (SMALL SCREEN ) */
+  .contact-me-section {
+    height: auto;
+    background-color: rgb(209, 137, 3);
+  }
+
+  .contact-me p {
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: "Roboto Slab", serif;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+  }
 }
 </style>

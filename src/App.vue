@@ -12,4 +12,7 @@ export default {
 </script>
 
 <style scooped>
+body {
+  outline: none;
+}
 </style>
