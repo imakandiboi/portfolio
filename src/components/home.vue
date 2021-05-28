@@ -41,8 +41,14 @@
                 type="button"
                 class="btn btn-lg btn btn-outline-warning"
                 style="border-radius: 50px"
+                data-bs-spy="scroll"
+                data-bs-target="#scrollspyHeading5"
+                data-bs-offset="0"
+                tabindex="0"
               >
-                Contact me
+                <a href="#scrollspyHeading5" style="color: white">
+                  Contact me</a
+                >
               </button>
             </div>
             <div class="col-sm-4"></div>
@@ -275,25 +281,49 @@
                 <div class="col-md-3">
                   <div class="flex-col">
                     <div class="icon"><i class="fas fa-mobile-alt"></i></div>
-                    <div>5</div>
+                    <a
+                      class="icon-link"
+                      target="_blank"
+                      href="tel:+2348160545944"
+                    >
+                      phone
+                    </a>
                   </div>
                 </div>
                 <div class="col-md-3">
                   <div class="flex-col">
                     <div class="icon"><i class="fas fa-envelope"></i></div>
-                    <div>6</div>
+                    <a
+                      class="icon-link"
+                      target="_blank"
+                      href="mail:imakandiboi@yahoo.com"
+                    >
+                      e-mail</a
+                    >
                   </div>
                 </div>
                 <div class="col-md-3">
                   <div class="flex-col">
                     <div class="icon"><i class="fab fa-linkedin"></i></div>
-                    <div>7</div>
+                    <a
+                      class="icon-link"
+                      target="_blank"
+                      href="https://www.linkedin.com/in/arinzechi-chiagozie-30a294202/"
+                    >
+                      linkedin</a
+                    >
                   </div>
                 </div>
                 <div class="col-md-3">
                   <div class="flex-col">
                     <div class="icon"><i class="fab fa-github"></i></div>
-                    <div>8</div>
+                    <a
+                      class="icon-link"
+                      target="_blank"
+                      href="https://github.com/imakandiboi"
+                    >
+                      github repo</a
+                    >
                   </div>
                 </div>
               </div>
@@ -302,7 +332,7 @@
         </div>
         <div class="container-fluid copyright text-center">
           <p class="copyright-text">
-            © {{ new Date().getFullYear() }} Arinzechi Chiagozie
+            Arinzechi Chiagozie © {{ new Date().getFullYear() }}
           </p>
         </div>
       </section>
@@ -340,8 +370,7 @@ export default {
 .lander {
   height: 60vh;
 }
-.hero-box {
-}
+
 .hero {
   height: auto;
 }
@@ -527,7 +556,18 @@ export default {
   padding: 40px 10px;
 }
 .icon {
-  font-size: 50px;
+  font-size: 40px;
+}
+
+.icon-link {
+  font-size: 15px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Roboto Slab", serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-decoration-line: none;
 }
 /* MEDIA QUERIES*/
 
