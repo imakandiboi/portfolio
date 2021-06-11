@@ -46,7 +46,10 @@
                 data-bs-offset="0"
                 tabindex="0"
               >
-                <a href="#scrollspyHeading5" style="color: white">
+                <a
+                  href="#scrollspyHeading5"
+                  style="color: white; text-decoration-line: none"
+                >
                   Contact me</a
                 >
               </button>
@@ -97,15 +100,20 @@
             <h1 class="project-caption">here are some of my recent Projects</h1>
             <div class="row cards">
               <div class="card" style="width: 24rem">
-                <img src="#" class="card-img-top" alt="..." />
+                <img
+                  src="@/assets/digital-market.png"
+                  class="card-img-top"
+                  alt="..."
+                />
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Digital Marketing website</h5>
                   <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    A simple website on Digital Marketing aim at reaching
+                    customers, Expanading business and Networking.
                   </p>
                   <a
-                    href="#"
+                    href="https://digitalskill.netlify.app/"
+                    target="_blank"
                     class="btn-lg btn btn-outline-warning"
                     style="border-radius: 50px"
                     >Take a Look</a
