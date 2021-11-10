@@ -14,13 +14,7 @@
         </li>
       </ul>
     </nav>
-    <div
-      data-bs-spy="scroll"
-      data-bs-target="#navbar-example2  "
-      data-bs-offset="0"
-      class="scrollspy-example"
-      tabindex="0"
-    >
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2  " data-bs-offset="0" class="scrollspy-example" tabindex="0">
       <!-- lander section-->
       <section
         id="scrollspyHeading1"
@@ -37,21 +31,8 @@
               </h1>
               <h3>web developer, Aspiring Software developer</h3>
 
-              <button
-                type="button"
-                class="btn btn-lg btn btn-outline-warning"
-                style="border-radius: 50px"
-                data-bs-spy="scroll"
-                data-bs-target="#scrollspyHeading5"
-                data-bs-offset="0"
-                tabindex="0"
-              >
-                <a
-                  href="#scrollspyHeading5"
-                  style="color: white; text-decoration-line: none"
-                >
-                  Contact me</a
-                >
+              <button type="button" class="btn btn-lg btn btn-outline-warning" style="border-radius: 50px" data-bs-spy="scroll" data-bs-target="#scrollspyHeading5" data-bs-offset="0" tabindex="0">
+                <a href="#scrollspyHeading5" style="color: white; text-decoration-line: none"> Contact me</a>
               </button>
             </div>
             <div class="col-sm-4"></div>
@@ -69,16 +50,9 @@
             <h2>Hi, Let's Meet.</h2>
             <p>
               Hi, my is
-              <span style="color: orange"
-                >Arinzechi Chiagozie Chukwunyelu.</span
-              >
+              <span style="color: orange">Arinzechi Chiagozie Chukwunyelu.</span>
               I am a
-              <span style="color: orange">JavaScript developer</span> Since the
-              beginning of my career as a developer for a year, i have developed
-              websites for start-up businesses and i have also collaborated with
-              some creative developers on websites, i am bold , confident &
-              naturally curious, a huge football fan and also very intersted in
-              the stock market.
+              <span style="color: orange">JavaScript developer</span> Since the beginning of my career as a developer for a year, i have developed websites for start-up businesses and i have also collaborated with some creative developers on websites, i am bold , confident & naturally curious, a huge football fan and also very intersted in the stock market.
             </p>
           </header>
         </div>
@@ -100,56 +74,33 @@
             <h1 class="project-caption">here are some of my recent Projects</h1>
             <div class="row cards">
               <div class="card" style="width: 24rem">
-                <img
-                  src="@/assets/digital-market.png"
-                  class="card-img-top"
-                  alt="..."
-                />
+                <img src="@/assets/aura.png" class="card-img-top" alt="..." />
                 <div class="card-body">
-                  <h5 class="card-title">Digital Marketing website</h5>
+                  <h5 class="card-title">AURA MAGAZINE</h5>
                   <p class="card-text">
-                    A simple website on Digital Marketing aim at reaching
-                    customers, Expanading business and Networking.
+                    Collaborated with some group of bright minds working on this project, A fashion online blog magazine for entertainment, fashion news & lifestyle and all other. a platform wher other designers can showcase their works and meet the demanding market force.
                   </p>
-                  <a
-                    href="https://digitalskill.netlify.app/"
-                    target="_blank"
-                    class="btn-lg btn btn-outline-warning"
-                    style="border-radius: 50px"
-                    >Take a Look</a
-                  >
+                  <a href="https://www.aura.com.ng/" target="_blank" class="btn-lg btn btn-outline-warning" style="border-radius: 50px">Take a Look</a>
                 </div>
               </div>
               <div class="card" style="width: 24rem">
-                <img src="#" class="card-img-top" alt="..." />
+                <img src="@/assets/skill.png" class="card-img-top" alt="..." />
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">DIGITAL SKILL- BRAND MARKETER</h5>
                   <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    Not completed.. This is a simple test Project that showcase a Brand/Skill Marketing Company, where user can get first hand Brandind & skill kindling . Aim at presenting the client ready for profesional carreer pathway
                   </p>
-                  <a
-                    href="#"
-                    class="btn-lg btn btn-outline-warning"
-                    style="border-radius: 50px"
-                    >Take a Look</a
-                  >
+                  <a href="digitalskill.netlify.app/" target="_blank" class="btn-lg btn btn-outline-warning" style="border-radius: 50px">Take a Look</a>
                 </div>
               </div>
               <div class="card" style="width: 24rem">
-                <img src="#" class="card-img-top" alt="..." />
+                <img src="@/assets/lux.png" class="card-img-top" alt="..." />
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">C-LUXURY</h5>
                   <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    Product designs Website for a LUXURY furniture design company, the webist aim at displaying diffrent custom product and service rendered by company , this project was built core with Vue.js Javascript Framework
                   </p>
-                  <a
-                    href="#"
-                    class="btn-lg btn btn-outline-warning"
-                    style="border-radius: 50px"
-                    >Take a Look</a
-                  >
+                  <a href="https://cluxuryfurnitures.netlify.app/" target="_blank" class="btn-lg btn btn-outline-warning" style="border-radius: 50px">Take a Look</a>
                 </div>
               </div>
             </div>
@@ -169,26 +120,13 @@
               <div class="d-flex flex-wrap">
                 <div class="w">
                   <div class="mx-auto">
-                    <svg
-                      width="48"
-                      height="48"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                      class="mx-auto"
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
-                        d="M41.42 8.084c.78-.78.78-2.04 0-2.82L36.74.584a1.992 1.992 0 00-2.82 0L30 4.505l7.5 7.5 3.92-3.92zM8 26.502L28 6.504l7.5 7.5-20 19.998H8v-7.5zm4 3.5h1.84l16-15.998-1.84-1.84-16 15.998v1.84zM48 40H0V48h48v-8z"
-                        fill="#1CB1BB"
-                        data-v-6b15a60d=""
-                      ></path>
+                    <svg width="48" height="48" fill="none" xmlns="http://www.w3.org/2000/svg" class="mx-auto">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M41.42 8.084c.78-.78.78-2.04 0-2.82L36.74.584a1.992 1.992 0 00-2.82 0L30 4.505l7.5 7.5 3.92-3.92zM8 26.502L28 6.504l7.5 7.5-20 19.998H8v-7.5zm4 3.5h1.84l16-15.998-1.84-1.84-16 15.998v1.84zM48 40H0V48h48v-8z" fill="#1CB1BB" data-v-6b15a60d=""></path>
                     </svg>
                   </div>
                   <h4 class="pt-4">DESIGNS</h4>
                   <p class="mt-4">
-                    I love clean, simple and high performance designs, with
-                    smooth interactions.
+                    I love clean, simple and high performance designs, with smooth interactions.
                   </p>
                   <h6 class="pt-4 pb-2">DESIGNS TOOLS :</h6>
                   <p>Figma</p>
@@ -198,27 +136,13 @@
                 </div>
                 <div class="w w-b">
                   <div class="mx-auto">
-                    <svg
-                      width="48"
-                      height="48"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                      class="mx-auto"
-                      data-v-6b15a60d=""
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
-                        d="M6 12h36V8H6c-2.2 0-4 1.8-4 4v24c0 2.2 1.8 4 4 4h8v-4H6V12zm20 12h-8v3.56c-1.22 1.1-2 2.66-2 4.44 0 1.78.78 3.34 2 4.44V40h8v-3.56c1.22-1.1 2-2.68 2-4.44 0-1.76-.78-3.34-2-4.44V24zm-7 8c0 1.66 1.34 3 3 3s3-1.34 3-3-1.34-3-3-3-3 1.34-3 3zm25-16H32c-1 0-2 1-2 2v20c0 1 1 2 2 2h12c1 0 2-1 2-2V18c0-1-1-2-2-2zM34 36h8V20h-8v16z"
-                        fill="#1CB1BB"
-                        data-v-6b15a60d=""
-                      ></path>
+                    <svg width="48" height="48" fill="none" xmlns="http://www.w3.org/2000/svg" class="mx-auto" data-v-6b15a60d="">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M6 12h36V8H6c-2.2 0-4 1.8-4 4v24c0 2.2 1.8 4 4 4h8v-4H6V12zm20 12h-8v3.56c-1.22 1.1-2 2.66-2 4.44 0 1.78.78 3.34 2 4.44V40h8v-3.56c1.22-1.1 2-2.68 2-4.44 0-1.76-.78-3.34-2-4.44V24zm-7 8c0 1.66 1.34 3 3 3s3-1.34 3-3-1.34-3-3-3-3 1.34-3 3zm25-16H32c-1 0-2 1-2 2v20c0 1 1 2 2 2h12c1 0 2-1 2-2V18c0-1-1-2-2-2zM34 36h8V20h-8v16z" fill="#1CB1BB" data-v-6b15a60d=""></path>
                     </svg>
                     <h4 class="pt-4">FRONT-END DEVELOPMENT</h4>
 
                     <p class="mt-4">
-                      I also build Quality UI, i'm comfortable with templates,
-                      themes and whatever it is to get my job upto speed.
+                      I also build Quality UI, i'm comfortable with templates, themes and whatever it is to get my job upto speed.
                     </p>
                     <h6 class="pt-4 pb-2">TECHNOLOGY STACK :</h6>
                     <p>HTML</p>
@@ -236,26 +160,13 @@
                 </div>
                 <div class="w">
                   <div class="mx-auto">
-                    <svg
-                      width="48"
-                      height="48"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                      class="mx-auto"
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
-                        d="M41.42 8.084c.78-.78.78-2.04 0-2.82L36.74.584a1.992 1.992 0 00-2.82 0L30 4.505l7.5 7.5 3.92-3.92zM8 26.502L28 6.504l7.5 7.5-20 19.998H8v-7.5zm4 3.5h1.84l16-15.998-1.84-1.84-16 15.998v1.84zM48 40H0V48h48v-8z"
-                        fill="#1CB1BB"
-                        data-v-6b15a60d=""
-                      ></path>
+                    <svg width="48" height="48" fill="none" xmlns="http://www.w3.org/2000/svg" class="mx-auto">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M41.42 8.084c.78-.78.78-2.04 0-2.82L36.74.584a1.992 1.992 0 00-2.82 0L30 4.505l7.5 7.5 3.92-3.92zM8 26.502L28 6.504l7.5 7.5-20 19.998H8v-7.5zm4 3.5h1.84l16-15.998-1.84-1.84-16 15.998v1.84zM48 40H0V48h48v-8z" fill="#1CB1BB" data-v-6b15a60d=""></path>
                     </svg>
                   </div>
                   <h4 class="pt-4">DEPLOYMENT</h4>
                   <p class="mt-4">
-                    I am flexible with different platforms used in Deploying my
-                    codes.
+                    I am flexible with different platforms used in Deploying my codes.
                   </p>
                   <h6 class="pt-4 pb-2">Deployment tools :</h6>
                   <p>Netlify</p>
@@ -280,8 +191,7 @@
             <h3>let's work togeher on something Great</h3>
             <div class="underline-2 mx-auto"></div>
             <p class="">
-              Think of a Project or Product idea ! , you can get in touch with
-              my contact information and social link.
+              Think of a Project or Product idea ! , you can get in touch with my contact information and social link.
             </p>
 
             <div class="social-links container">
@@ -289,11 +199,7 @@
                 <div class="col-md-3">
                   <div class="flex-col">
                     <div class="icon"><i class="fas fa-mobile-alt"></i></div>
-                    <a
-                      class="icon-link"
-                      target="_blank"
-                      href="tel:+2348160545944"
-                    >
+                    <a class="icon-link" target="_blank" href="tel:+2348160545944">
                       phone
                     </a>
                   </div>
@@ -301,37 +207,19 @@
                 <div class="col-md-3">
                   <div class="flex-col">
                     <div class="icon"><i class="fas fa-envelope"></i></div>
-                    <a
-                      class="icon-link"
-                      target="_blank"
-                      href="mail:imakandiboi@yahoo.com"
-                    >
-                      e-mail</a
-                    >
+                    <a class="icon-link" target="_blank" href="mail:imakandiboi@yahoo.com"> e-mail</a>
                   </div>
                 </div>
                 <div class="col-md-3">
                   <div class="flex-col">
                     <div class="icon"><i class="fab fa-linkedin"></i></div>
-                    <a
-                      class="icon-link"
-                      target="_blank"
-                      href="https://www.linkedin.com/in/arinzechi-chiagozie-30a294202/"
-                    >
-                      linkedin</a
-                    >
+                    <a class="icon-link" target="_blank" href="https://www.linkedin.com/in/arinzechi-chiagozie-30a294202/"> linkedin</a>
                   </div>
                 </div>
                 <div class="col-md-3">
                   <div class="flex-col">
                     <div class="icon"><i class="fab fa-github"></i></div>
-                    <a
-                      class="icon-link"
-                      target="_blank"
-                      href="https://github.com/imakandiboi"
-                    >
-                      github repo</a
-                    >
+                    <a class="icon-link" target="_blank" href="https://github.com/imakandiboi"> github repo</a>
                   </div>
                 </div>
               </div>
@@ -339,9 +227,7 @@
           </div>
         </div>
         <div class="container-fluid copyright text-center">
-          <p class="copyright-text">
-            Arinzechi Chiagozie © {{ new Date().getFullYear() }}
-          </p>
+          <p class="copyright-text">Arinzechi Chiagozie © {{ new Date().getFullYear() }}</p>
         </div>
       </section>
       <!-- END OF CONTACT ME  section-->
@@ -352,7 +238,7 @@
 <script>
 export default {
   name: "home",
-};
+}
 </script>
 
 <style scoped>
@@ -487,7 +373,7 @@ export default {
 
 .tech-stack-section {
   color: #efefef;
-  height: 80vh;
+  height: 100vh;
   background-color: rgb(22, 22, 22);
 }
 .tech-stack {
