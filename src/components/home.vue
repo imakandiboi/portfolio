@@ -86,9 +86,9 @@
               <div class="card" style="width: 24rem">
                 <img src="@/assets/skillz.png" class="card-img-top" alt="..." />
                 <div class="card-body">
-                  <h5 class="card-title">DIGITAL SKILL- BRAND MARKETER</h5>
+                  <h5 class="card-title">Auro Capital</h5>
                   <p class="card-text">
-                    Not completed.. This is a simple test Project that showcase a Brand/Skill Marketing Company, where user can get first hand Brandind & skill kindling . Aim at presenting the client ready for profesional carreer pathway
+                    A simple Bitcoin website , user friendly that allow users invest in bitcoin ,buy bitcoin through peer - to - peer trading ,invest in long-term digital assets..
                   </p>
                   <a href="dikabtc.netlify.app/" target="_blank" class="btn-lg btn btn-outline-warning" style="border-radius: 50px">Take a Look</a>
                 </div>
