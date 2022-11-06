@@ -90,7 +90,7 @@
                   <p class="card-text">
                     A simple Bitcoin website , user friendly that allow users invest in bitcoin ,buy bitcoin through peer - to - peer trading ,invest in long-term digital assets..
                   </p>
-                  <a href="dhttp://dikabtc.netlify.app/" target="_blank" class="btn-lg btn btn-outline-warning" style="border-radius: 50px">Take a Look</a>
+                  <a href="http://dikabtc.netlify.app/" target="_blank" class="btn-lg btn btn-outline-warning" style="border-radius: 50px">Take a Look</a>
                 </div>
               </div>
               <div class="card" style="width: 24rem">
