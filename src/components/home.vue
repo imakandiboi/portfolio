@@ -84,13 +84,13 @@
                 </div>
               </div>
               <div class="card" style="width: 24rem">
-                <img src="@/assets/skill.png" class="card-img-top" alt="..." />
+                <img src="@/assets/skillz.png" class="card-img-top" alt="..." />
                 <div class="card-body">
                   <h5 class="card-title">DIGITAL SKILL- BRAND MARKETER</h5>
                   <p class="card-text">
                     Not completed.. This is a simple test Project that showcase a Brand/Skill Marketing Company, where user can get first hand Brandind & skill kindling . Aim at presenting the client ready for profesional carreer pathway
                   </p>
-                  <a href="digitalskill.netlify.app/" target="_blank" class="btn-lg btn btn-outline-warning" style="border-radius: 50px">Take a Look</a>
+                  <a href="dikabtc.netlify.app/" target="_blank" class="btn-lg btn btn-outline-warning" style="border-radius: 50px">Take a Look</a>
                 </div>
               </div>
               <div class="card" style="width: 24rem">
@@ -237,13 +237,13 @@
 
 <script>
 export default {
-  name: "home",
+  name: 'home',
 }
 </script>
 
 <style scoped>
-@import url("https://fonts.googleapis.com/css2?family=Nunito&family=Odibee+Sans&family=Open+Sans&family=Roboto+Condensed&family=Roboto+Slab:wght@100;200;400;500;800;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito&family=Odibee+Sans&family=Open+Sans&family=Roboto+Condensed&family=Roboto+Slab&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Odibee+Sans&family=Open+Sans&family=Roboto+Condensed&family=Roboto+Slab:wght@100;200;400;500;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Odibee+Sans&family=Open+Sans&family=Roboto+Condensed&family=Roboto+Slab&display=swap');
 .navbar {
   background-color: black;
   font-weight: bold;
@@ -277,7 +277,7 @@ export default {
 .hero h1 {
   text-align: left;
   margin: 30px 10px;
-  font-family: "Odibee Sans", cursive;
+  font-family: 'Odibee Sans', cursive;
   font-weight: Thin 100;
   color: #f5f3f3;
   text-transform: uppercase;
@@ -316,12 +316,12 @@ export default {
 .About h2 {
   margin: 20px 0;
   font-size: 2rem;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .About p {
   font-size: 1.2rem;
-  font-family: "Roboto Slab", serif;
+  font-family: 'Roboto Slab', serif;
 
   line-height: 3rem;
 }
@@ -352,7 +352,7 @@ export default {
   text-transform: uppercase;
   color: #efefef;
   font-size: 2rem;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .cards {
   justify-content: space-around;
@@ -382,7 +382,7 @@ export default {
 .tech-stack h3 {
   margin: 30px 0;
   font-size: 1.7rem;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: center;
   text-transform: uppercase;
 }
@@ -417,7 +417,7 @@ export default {
   text-align: center;
   text-transform: uppercase;
   font-weight: bolder;
-  font-family: "Odibee Sans", cursive;
+  font-family: 'Odibee Sans', cursive;
   padding-top: 20px;
   padding-bottom: 20px;
   font-size: 40px;
@@ -428,7 +428,7 @@ export default {
   text-align: center;
   text-transform: uppercase;
   font-weight: bolder;
-  font-family: "Roboto Slab", serif;
+  font-family: 'Roboto Slab', serif;
   padding-top: 20px;
   padding-bottom: 20px;
   font-size: 20px;
@@ -443,7 +443,7 @@ export default {
   padding-top: 40px;
   font-size: 20px;
   letter-spacing: 0.1rem;
-  font-family: "Odibee Sans", cursive;
+  font-family: 'Odibee Sans', cursive;
 }
 
 .socials {
@@ -458,7 +458,7 @@ export default {
   color: black;
   text-transform: uppercase;
   font-weight: bold;
-  font-family: "Roboto Slab", serif;
+  font-family: 'Roboto Slab', serif;
   padding-top: 20px;
   padding-bottom: 20px;
   text-decoration-line: none;
@@ -477,7 +477,7 @@ export default {
     text-transform: uppercase;
     font-size: 2rem;
     line-height: 4rem;
-    font-family: "Odibee Sans", cursive;
+    font-family: 'Odibee Sans', cursive;
   }
   .About {
     background-color: rgb(22, 22, 22);
@@ -518,7 +518,7 @@ export default {
     text-align: left;
     text-transform: uppercase;
     font-weight: bolder;
-    font-family: "Roboto Slab", serif;
+    font-family: 'Roboto Slab', serif;
     padding-top: 20px;
     padding-bottom: 25px;
     font-size: 20px;
